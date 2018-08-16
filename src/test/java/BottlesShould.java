@@ -1,11 +1,9 @@
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BottlesShould {
     @Test
-    @Disabled
     public void
     return_the_first_verse() {
         var expected = "99 bottles of beer on the wall, 99 bottles of beer.\n" +
@@ -15,7 +13,6 @@ public class BottlesShould {
     }
 
     @Test
-    @Disabled
     public void
     return_another_verse() {
         var expected = "89 bottles of beer on the wall, 89 bottles of beer.\n" +
@@ -25,7 +22,6 @@ public class BottlesShould {
     }
 
     @Test
-    @Disabled
     public void
     return_verse_2() {
         var expected = "2 bottles of beer on the wall, 2 bottles of beer.\n" +
@@ -35,7 +31,6 @@ public class BottlesShould {
     }
 
     @Test
-    @Disabled
     public void
     return_verse_1() {
         var expected = "1 bottle of beer on the wall, 1 bottle of beer.\n" +
@@ -45,7 +40,6 @@ public class BottlesShould {
     }
 
     @Test
-    @Disabled
     public void
     return_verse_0() {
         var expected = "No more bottles of beer on the wall, no more bottles of beer.\n" +
@@ -55,7 +49,6 @@ public class BottlesShould {
     }
 
     @Test
-    @Disabled
     public void
     return_a_couple_verses() {
         var expected = "99 bottles of beer on the wall, 99 bottles of beer.\n" +
@@ -68,7 +61,6 @@ public class BottlesShould {
     }
 
     @Test
-    @Disabled
     public void
     return_a_few_verses() {
         var expected = "3 bottles of beer on the wall, 3 bottles of beer.\n" +
@@ -87,7 +79,6 @@ public class BottlesShould {
     }
 
     @Test
-    @Disabled
     public void
     return_the_whole_song() {
         var expected = "99 bottles of beer on the wall, 99 bottles of beer.\n" +
